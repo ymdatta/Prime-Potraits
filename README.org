@@ -25,15 +25,24 @@ I have used gmpy2 package[3] for testing whether the number is prime or not.
 
 * Some Results:
 
+# #+CAPTION: An image
+# #+NAME: myimage
+# #+ATTR_LATEX: :width 8cm :center t
+# [[./Results/Originals/girlface_o_32x32.png]]
 
-#+CAPTION: An image
-#+NAME: myimage
-#+ATTR_LATEX: :width 8cm :center t
-[[./Results/Originals/girlface_o_32x32.png]]
+#+CAPTION: Results
+#+NAME: Results Table
+|------------------------------------------------+------------------------------------------------|
+| Original Image                                 | Corresponding Prime Potrait                    |
+|------------------------------------------------+------------------------------------------------|
+| [[./Results/Originals/girlface_o_32x32.png]]       | [[./Results/PPotraits/girlface.png]]               |
+|------------------------------------------------+------------------------------------------------|
+| [[file:./Results/Originals/lena_o.png]]            | [[file:./Results/PPotraits/lena_r.png]]            |
+|------------------------------------------------+------------------------------------------------|
+| [[file:./Results/Originals/girlface_o_40x40.png]]  | [[file:./Results/PPotraits/girlface_40x40.png]]    |
+|------------------------------------------------+------------------------------------------------|
+| [[file:./Results/Originals/girlface_o_64x64.png]]  | [[file:./Results/PPotraits/girlface_r_64x64.png]]  |
+|------------------------------------------------+------------------------------------------------|
+| file:./Results/Originals/s_germain_o_53x53.png | [[file:./Results/PPotraits/s_germain_r_53x53.png]] |
+|------------------------------------------------+------------------------------------------------|
 
-#+CAPTION: Some description
-#+NAME: mytable
-|------------------------------------------+----------------------------------|
-| Original Image                           | Corresponding Prime Potrait      |
-|------------------------------------------+----------------------------------|
-| [[./Results/Originals/girlface_o_32x32.png]] | [[./Results/PPotraits/girlface.png]] |
