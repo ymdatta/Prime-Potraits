@@ -43,6 +43,6 @@ I have used gmpy2 package[3] for testing whether the number is prime or not.
 |------------------------------------------------+------------------------------------------------|
 | [[file:./Results/Originals/girlface_o_64x64.png]]  | [[file:./Results/PPotraits/girlface_r_64x64.png]]  |
 |------------------------------------------------+------------------------------------------------|
-| file:./Results/Originals/s_germain_o_53x53.png | [[file:./Results/PPotraits/s_germain_r_53x53.png]] |
+| [[file:./Results/Originals/s_germain_o_53x53.png]] | [[file:./Results/PPotraits/s_germain_r_53x53.png]] |
 |------------------------------------------------+------------------------------------------------|
 
