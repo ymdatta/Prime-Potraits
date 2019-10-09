@@ -1,0 +1,39 @@
+#+TITLE: Prime Potraits
+#+BIND: org-latex-images-centered nil
+#+BIND: org-latex-image-default-width 5cm
+
+This is an implementation of the Paper(TODO) presented by Zachary Abel
+at the Bridges Finland Conference Proceedings.
+
+From the Abstract of the paper
+"We introduce a versatile method for finding prime numbers that display
+surprising intricate visual patterns -- hypothetically, any desired
+pattern is possible, with only mild distortion. We use this method to 
+locate several examples of large prime numbers that are, in and of
+themselves, self-referential works of art".
+
+* How does this work?
+
+  We start with an image(i used grey scale images), use a dithering alogirthm
+(Floyd-Steinberg dithering [1]) to approximate the image using only the allowd
+10 shades of gray, and then checked the resulted number for primality. By adding
+subtle noise to the portrait(randomly changing each pixel value by an
+imperceptible +1% or -1%) before dithering, we generated many different
+pixellations of the same image -- enough that one of them happened to be prime.(TODO)
+
+I have used gmpy2 package[3] for testing whether the number is prime or not.
+
+* Some Results:
+
+
+#+CAPTION: An image
+#+NAME: myimage
+#+ATTR_LATEX: :width 8cm :center t
+[[./Results/Originals/girlface_o_32x32.png]]
+
+#+CAPTION: Some description
+#+NAME: mytable
+|------------------------------------------+----------------------------------|
+| Original Image                           | Corresponding Prime Potrait      |
+|------------------------------------------+----------------------------------|
+| [[./Results/Originals/girlface_o_32x32.png]] | [[./Results/PPotraits/girlface.png]] |
